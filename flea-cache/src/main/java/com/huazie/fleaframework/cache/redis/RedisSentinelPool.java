@@ -30,6 +30,8 @@ public class RedisSentinelPool {
 
     private String poolName; // 连接池名
 
+
+
     private JedisSentinelPool jedisSentinelPool; // 分布式Jedis连接池
 
     private RedisSentinelPool(String poolName) {
